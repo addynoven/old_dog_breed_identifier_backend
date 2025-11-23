@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+venv.bak/
+
+# Pip / packaging
+.Python
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Tests / coverage
+.pytest_cache/
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.sock
+
+# Secrets / env
+.env
+.env.*
+secrets.*
+credentials.json
+*.pem
+*.key
+
+# C extensions
+*.so
+
+# Cache / type checkers / linters
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / distribution artifacts
+*.egg
+*.whl
+
+# Misc
+coverage/
