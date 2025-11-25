@@ -4,3 +4,7 @@ numpy==1.26.4
 tensorflow
 Pillow
 python-multipart
+ultralytics
+sqlalchemy
+psycopg2-binary
+python-dotenv
