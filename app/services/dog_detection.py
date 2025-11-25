@@ -2,13 +2,13 @@ from ultralytics import YOLO
 from PIL import Image
 import os
 
-# Load the YOLOv8 Nano model
-# It will download 'yolov8n.pt' automatically on first use if not present
-model = YOLO("yolov8n.pt")
+# Load the YOLO12 Small model
+# It will download 'yolo12s.pt' automatically on first use if not present
+model = YOLO("yolo12s.pt")
 
 def detect_dog(image: Image.Image) -> bool:
     """
-    Detects if there is a dog in the image using YOLOv8.
+    Detects if there is a dog in the image using YOLO12.
     Returns True if a dog is detected, False otherwise.
     """
     # Run inference
